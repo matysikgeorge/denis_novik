@@ -47,6 +47,13 @@ nav {
   width: 100%;
 }
 
+.header__img-mob{
+  max-width: 316px;
+  width: 100%;
+  margin-top: 36px;
+  display: none;
+}
+
 .link:hover {
   color: #070707;
 }
@@ -56,13 +63,53 @@ nav {
 }
 
 @media screen and (max-width: 410px) {
+  .header__title{
+    max-width: 124px;
+    width: 100%;
+    margin-top: 65px;
+  }
+
+  .header__img{
+    display: none;
+  }
+
+  .header__text{
+    max-width: 155px;
+    width: 100%;
+    margin-top: 23px;
+  }
+
   .nav{
     display: none;
+  }
+
+  .title{
+    flex-wrap: wrap;
+  }
+
+  .header__img-mob{
+    display: block;
   }
 }
 
 @media screen and (max-width: 410px) {
-  .title{
-    flex-wrap: wrap;
+ 
+}
+
+@media screen and (max-width: 410px) {
+  
+}
+
+@media screen and (max-width: 410px) {
+ 
+}
+
+/* @media screen and (min-width: 410px) {
+  .header__img-mob{
+    display: none;
   }
+} */
+
+@media screen and (max-width: 410px) {
+
 }
