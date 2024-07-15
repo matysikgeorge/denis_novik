@@ -1,0 +1,27 @@
+.about {
+  padding-top: 120px;
+  padding-bottom: 107px;
+  background-color: #f6f6f6;
+}
+
+.about__title {
+  color: #070707;
+  text-align: center;
+  /* font-family: Gilroy-Bold; */
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.about__paragraph {
+  color: #070707;
+  text-align: center;
+  /* font-family: Gilroy-Medium; */
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.about__paragraph:last-child {
+  margin-bottom: 0;
+}

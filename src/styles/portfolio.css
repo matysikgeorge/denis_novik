@@ -1,0 +1,29 @@
+.portfolio {
+  padding: 110px 0 90px;
+  background-color: #f6f6f6;
+}
+
+.portfolio__link {
+  margin-top: 43px;
+  display: block;
+}
+
+.portfolio__title {
+  color: #070707;
+  text-align: center;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.portfolio__name {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration-line: underline;
+}
+
+.portfolio__img {
+  width: 100%;
+  display: block;
+}
