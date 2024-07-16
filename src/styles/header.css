@@ -63,7 +63,7 @@ nav {
   margin-top: 30px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 427px) {
   .header__title{
     max-width: 124px;
     width: 100%;

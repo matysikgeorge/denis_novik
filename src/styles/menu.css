@@ -83,7 +83,7 @@ body {
   right: 0;
 }
 
-@media screen and (min-width: 426px) {
+@media screen and (min-width: 427px) {
   .navbar {
     display: none;
   }
