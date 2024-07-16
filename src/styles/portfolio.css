@@ -21,6 +21,11 @@
   font-size: 18px;
   font-weight: 400;
   text-decoration-line: underline;
+  transition: 0.5s;
+}
+
+.portfolio__name:hover {
+  color: #828282;
 }
 
 .portfolio__img {

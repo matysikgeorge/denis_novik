@@ -19,7 +19,7 @@
   font-weight: 400;
 }
 
-.contacts__link {
+.message__link {
   max-width: 180.5px;
   width: 100%;
   height: 42px;
@@ -31,15 +31,28 @@
   color: #fff;
   text-align: center;
   padding: 10px 30px;
+  transition: 0.5s;
+  outline: 1px solid black
+}
+
+.message__link:hover{
+  color: #070707;
+  background-color: #fff;
 }
 
 .contacts__app {
+  color: #070707;
   margin: 0 auto;
   margin-top: 85px;
   display: flex;
   justify-content: space-between;
   max-width: 342px;
   width: 100%;
+  transition: 0.5s;
+}
+
+.contacts__app:hover{
+  color: #828282;
 }
 
 .contact__text {
@@ -57,10 +70,8 @@
     max-width: 316px;
     text-align: center;
   }
-}
-
-@media screen and (max-width: 410px) {
-  .contacts__link{
+  .message__link{
     max-width: 316px;
   }
 }
+

@@ -7,31 +7,35 @@
     <title>Denis Novik</title>
   </head>
   <body>
-    <header class="header">
+    <header id="header">
       <div class="container">
         <nav class="nav">
           <ul class="list">
-            <li><a class="link" href="#">Home</a></li>
-            <li><a class="link" href="#">About me</a></li>
-            <li><a class="link" href="#">Skills</a></li>
-            <li><a class="link" href="#">Portfolio</a></li>
-            <li><a class="link" href="#">Contacts</a></li>
+            <li><a class="link" href="#header">Home</a></li>
+            <li><a class="link" href="#about">About me</a></li>
+            <li><a class="link" href="#skills">Skills</a></li>
+            <li><a class="link" href="#portfolio">Portfolio</a></li>
+            <li><a class="link" href="#footer">Contacts</a></li>
           </ul>
         </nav>
         <div class="title">
           <h1 class="header__title">Denis Novik</h1>
-          <p class="header__text">UX | UI designer 24 years old, Minsk</p>
+          <p class="header__text">UX | UI designer <br>24 years old, Minsk</p>
         </div>
         <img
           src="./src/img/denis_novikov/denis_novik.webp"
           alt="denis_novik"
           class="header__img"
         />
-        <img src="./src/img/denis_novikov/denis_novikov_mob.webp" alt="denis_novik" class="header__img-mob">
+        <img
+          src="./src/img/denis_novikov/denis_novikov_mob.webp"
+          alt="denis_novik"
+          class="header__img-mob"
+        />
       </div>
     </header>
     <main>
-      <section class="about">
+      <section id="about">
         <div class="container">
           <h2 class="about__title">About me</h2>
           <p class="about__paragraph">
@@ -48,8 +52,8 @@
           </p>
         </div>
       </section>
-      <section class="skills">
-        <div class="container">
+      <section id="skills">
+        <div class="skills__container">
           <h2 class="skills__title">Skills</h2>
           <p class="skills__text">I work in such programs as</p>
           <div class="skills__wrapper">
@@ -136,10 +140,10 @@
           </div>
         </div>
       </section>
-      <section class="portfolio">
+      <section id="portfolio">
         <div class="container">
           <h2 class="portfolio__title">Portfolio</h2>
-          <a href="#" class="portfolio__link">
+          <a href="https://www.levi.com/NL/nl_NL/" class="portfolio__link">
             <img
               class="portfolio__img"
               src="./src/img/portfolio/woman_man_sale_new_collection.webp"
@@ -147,7 +151,10 @@
             />
             <p class="portfolio__name">Online fashion store - Homepage</p>
           </a>
-          <a href="#" class="portfolio__link">
+          <a
+            href="https://frameweb.com/article/retail/reeboks-new-flagship-is-designed-to-connect-with-todays-youth-heres-how"
+            class="portfolio__link"
+          >
             <img
               class="portfolio__img"
               src="./src/img/portfolio/reebok_man_jump.webp"
@@ -155,26 +162,42 @@
             />
             <p class="portfolio__name">Reebok Store - Concept</p>
           </a>
-          <a href="#" class="portfolio__link">
-            <img src="./src/img/portfolio/reebok_camera.webp" alt="портативная камера Braun macro T52" class="portfolio__img" />
+          <a
+            href="https://www.behance.net/gallery/62085997/Landing-Page-BRAUN#"
+            class="portfolio__link"
+          >
+            <img
+              src="./src/img/portfolio/reebok_camera.webp"
+              alt="портативная камера Braun macro T52"
+              class="portfolio__img"
+            />
             <p class="portfolio__name">Braun Landing Page - Concept</p>
           </a>
         </div>
       </section>
-      <footer class="footer">
+      <footer id="footer">
         <section class="contacts">
           <div class="container">
             <h2 class="contacts__title">Contacts</h2>
             <p class="contacts__text">
               Want to know more or just chat? You are welcome!
             </p>
-            <a href="#" class="contacts__link">Send message</a>
+            <!-- <button class="footer__button">Send message</button> -->
+            <a href="#" class="message__link">Send message</a>
             <div class="contacts__wrapper">
               <article class="contacts__app">
-                <img src="./src/img/contacts/in.svg" alt="in" />
-                <img src="./src/img/contacts/instagram.svg" alt="instagram" />
-                <img src="./src/img/contacts/behance.svg" alt="behance" />
-                <img src="./src/img/contacts/surface.svg" alt="surface" />
+                <a href="https://www.linkedin.com/" class="app__link"
+                  ><img src="./src/img/contacts/in.svg" alt="in" />
+                </a>
+                <a href="https://www.instagram.com/" class="app__link">
+                  <img src="./src/img/contacts/instagram.svg" alt="instagram" />
+                </a>
+                <a href="https://www.behance.net/" class="app__link">
+                  <img src="./src/img/contacts/behance.svg" alt="behance" />
+                </a>
+                <a href="https://dribbble.com/" class="app__link">
+                  <img src="./src/img/contacts/surface.svg" alt="surface" />
+                </a>
               </article>
               <p class="contact__text">
                 Like me on <br />
