@@ -8,6 +8,23 @@
   </head>
   <body>
     <header id="header">
+      <div class="menu__container-mob">
+        <nav class="navbar">
+          <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+          <label for="menu-toggle" class="menu-icon">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </label>
+          <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
       <div class="container">
         <nav class="nav">
           <ul class="list">
@@ -20,7 +37,7 @@
         </nav>
         <div class="title">
           <h1 class="header__title">Denis Novik</h1>
-          <p class="header__text">UX | UI designer <br>24 years old, Minsk</p>
+          <p class="header__text">UX | UI designer <br />24 years old, Minsk</p>
         </div>
         <img
           src="./src/img/denis_novikov/denis_novik.webp"
@@ -185,7 +202,7 @@
             <!-- <button class="footer__button">Send message</button> -->
             <a href="#" class="message__link">Send message</a>
             <div class="contacts__wrapper">
-              <article class="contacts__app">
+              <div class="contacts__app">
                 <a href="https://www.linkedin.com/" class="app__link"
                   ><img src="./src/img/contacts/in.svg" alt="in" />
                 </a>
@@ -198,7 +215,7 @@
                 <a href="https://dribbble.com/" class="app__link">
                   <img src="./src/img/contacts/surface.svg" alt="surface" />
                 </a>
-              </article>
+              </div>
               <p class="contact__text">
                 Like me on <br />
                 LinkedIn, Instagram, Behance, Dribble

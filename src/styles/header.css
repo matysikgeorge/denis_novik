@@ -91,4 +91,11 @@ nav {
   .header__img-mob{
     display: block;
   }
+
+}
+
+@media screen and (min-width: 411px){
+.nav{
+  display: block;
+}
 }
