@@ -94,8 +94,8 @@ nav {
 
 }
 
-@media screen and (min-width: 411px){
-.nav{
-  display: block;
+/* @media screen and (max-width: 411px){
+.container{
+  display: none;
 }
-}
+} */
