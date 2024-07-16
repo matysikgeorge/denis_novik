@@ -1,12 +1,16 @@
 .skills__container{
-  padding: 100px 0;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 30px;
+  box-sizing: content-box;
 }
 
 .skills__title {
   color: #070707;
+  margin-top: 90px;
   text-align: center;
   font-size: 34px;
-  font-weight: 400;
+  font-weight: bold;
 }
 
 .skills__text {
