@@ -32,16 +32,16 @@
   text-align: center;
   padding: 10px 30px;
   transition: 0.5s;
-  outline: 1px solid black
+  outline: 1px solid black;
 }
 
-.message__link:hover{
+.message__link:hover {
   color: #070707;
   background-color: #fff;
 }
 
 .contacts__app {
-  color: #070707;
+  color: black;
   margin: 0 auto;
   margin-top: 85px;
   display: flex;
@@ -51,8 +51,8 @@
   transition: 0.5s;
 }
 
-.contacts__app:hover{
-  color: #828282;
+.app__link:hover {
+filter: invert(47%) sepia(77%) saturate(5%) hue-rotate(46deg) brightness(94%) contrast(93%);
 }
 
 .contact__text {
@@ -66,12 +66,11 @@
 }
 
 @media screen and (max-width: 426px) {
-  .contacts__text{
+  .contacts__text {
     max-width: 316px;
     text-align: center;
   }
-  .message__link{
+  .message__link {
     max-width: 316px;
   }
 }
-
